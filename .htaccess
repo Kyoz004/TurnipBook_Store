@@ -1,0 +1,30 @@
+RewriteEngine On
+
+RewriteRule ^$ app/pages/customer/home.php [L]
+RewriteRule ^index\.php$ app/pages/customer/home.php [L]
+
+RewriteRule ^home_guest\.php$ app/pages/guest/home.php [L]
+RewriteRule ^shop_guest\.php$ app/pages/guest/shop.php [L]
+RewriteRule ^search_page_guest\.php$ app/pages/guest/search.php [L]
+RewriteRule ^orders_guest\.php$ app/pages/guest/orders.php [L]
+RewriteRule ^cart_guest\.php$ app/pages/guest/cart.php [L]
+RewriteRule ^contact_guest\.php$ app/pages/guest/contact.php [L]
+RewriteRule ^about_guest\.php$ app/pages/guest/about.php [L]
+
+RewriteRule ^shop\.php$ app/pages/customer/shop.php [L]
+RewriteRule ^search_page\.php$ app/pages/customer/search.php [L]
+RewriteRule ^orders\.php$ app/pages/customer/orders.php [L]
+RewriteRule ^cart\.php$ app/pages/customer/cart.php [L]
+RewriteRule ^checkout\.php$ app/pages/customer/checkout.php [L]
+RewriteRule ^contact\.php$ app/pages/customer/contact.php [L]
+RewriteRule ^about\.php$ app/pages/customer/about.php [L]
+
+RewriteRule ^login\.php$ app/pages/auth/login.php [L]
+RewriteRule ^register\.php$ app/pages/auth/register.php [L]
+RewriteRule ^logout\.php$ app/pages/auth/logout.php [L]
+
+RewriteRule ^admin_page\.php$ app/pages/admin/dashboard.php [L]
+RewriteRule ^admin_products\.php$ app/pages/admin/products.php [L]
+RewriteRule ^admin_orders\.php$ app/pages/admin/orders.php [L]
+RewriteRule ^admin_users\.php$ app/pages/admin/users.php [L]
+RewriteRule ^admin_contacts\.php$ app/pages/admin/contacts.php [L]
